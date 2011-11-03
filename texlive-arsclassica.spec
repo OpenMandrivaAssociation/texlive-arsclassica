@@ -1,3 +1,9 @@
+# revision 23434
+# category Package
+# catalog-ctan /macros/latex/contrib/arsclassica
+# catalog-date 2011-06-30 10:42:48 +0200
+# catalog-license lppl
+# catalog-version 2.7
 Name:		texlive-arsclassica
 Version:	2.7
 Release:	1
@@ -60,6 +66,7 @@ is in Italian).
 %doc %{_texmfdistdir}/doc/latex/arsclassica/Graphics/GuITlogo.pdf
 %doc %{_texmfdistdir}/doc/latex/arsclassica/README
 %doc %{_texmfdistdir}/doc/latex/arsclassica/arsclassica-preamble.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -70,3 +77,5 @@ is in Italian).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
