@@ -1,12 +1,12 @@
-# revision 23434
+# revision 25298
 # category Package
 # catalog-ctan /macros/latex/contrib/arsclassica
-# catalog-date 2011-06-30 10:42:48 +0200
+# catalog-date 2012-02-05 23:37:31 +0100
 # catalog-license lppl
-# catalog-version 2.7
+# catalog-version 4.0
 Name:		texlive-arsclassica
-Version:	2.7
-Release:	2
+Version:	4.0
+Release:	1
 Summary:	A different view of the ClassicThesis package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/arsclassica
@@ -20,9 +20,9 @@ Requires(post):	texlive-kpathsea
 
 %description
 The package changes some typographical points of the
-ClassicThesis style, by Andre Miede. It allows to reproduce the
-look of the guide The art of writing with LaTeX (the web page
-is in Italian).
+ClassicThesis style, by Andre Miede. It enables the user to
+reproduce the look of the guide The art of writing with LaTeX
+(the web page is in Italian).
 
 %post
     %{_sbindir}/texlive.post
@@ -37,6 +37,8 @@ is in Italian).
 %{_texmfdistdir}/makeindex/arsclassica/classic.ist
 %{_texmfdistdir}/tex/latex/arsclassica/arsclassica.sty
 %doc %{_texmfdistdir}/doc/latex/arsclassica/ArsClassica.pdf
+%doc %{_texmfdistdir}/doc/latex/arsclassica/ArsClassica.run.xml
+%doc %{_texmfdistdir}/doc/latex/arsclassica/ArsClassica.synctex.gz
 %doc %{_texmfdistdir}/doc/latex/arsclassica/ArsClassica.tex
 %doc %{_texmfdistdir}/doc/latex/arsclassica/Bibliography.bib
 %doc %{_texmfdistdir}/doc/latex/arsclassica/CHANGES
@@ -54,9 +56,8 @@ is in Italian).
 %doc %{_texmfdistdir}/doc/latex/arsclassica/Graphics/Example_2.jpg
 %doc %{_texmfdistdir}/doc/latex/arsclassica/Graphics/Example_3.jpg
 %doc %{_texmfdistdir}/doc/latex/arsclassica/Graphics/Example_4.jpg
-%doc %{_texmfdistdir}/doc/latex/arsclassica/Graphics/GuITlogo.pdf
 %doc %{_texmfdistdir}/doc/latex/arsclassica/README
-%doc %{_texmfdistdir}/doc/latex/arsclassica/arsclassica-preamble.tex
+%doc %{_texmfdistdir}/doc/latex/arsclassica/arsclassica-settings.tex
 
 #-----------------------------------------------------------------------
 %prep
