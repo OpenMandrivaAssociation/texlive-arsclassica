@@ -1,11 +1,11 @@
-# revision 25298
+# revision 25466
 # category Package
 # catalog-ctan /macros/latex/contrib/arsclassica
-# catalog-date 2012-02-05 23:37:31 +0100
+# catalog-date 2012-02-21 16:05:39 +0100
 # catalog-license lppl
-# catalog-version 4.0
+# catalog-version 4.0.3
 Name:		texlive-arsclassica
-Version:	4.0
+Version:	4.0.3
 Release:	1
 Summary:	A different view of the ClassicThesis package
 Group:		Publishing
@@ -37,8 +37,6 @@ reproduce the look of the guide The art of writing with LaTeX
 %{_texmfdistdir}/makeindex/arsclassica/classic.ist
 %{_texmfdistdir}/tex/latex/arsclassica/arsclassica.sty
 %doc %{_texmfdistdir}/doc/latex/arsclassica/ArsClassica.pdf
-%doc %{_texmfdistdir}/doc/latex/arsclassica/ArsClassica.run.xml
-%doc %{_texmfdistdir}/doc/latex/arsclassica/ArsClassica.synctex.gz
 %doc %{_texmfdistdir}/doc/latex/arsclassica/ArsClassica.tex
 %doc %{_texmfdistdir}/doc/latex/arsclassica/Bibliography.bib
 %doc %{_texmfdistdir}/doc/latex/arsclassica/CHANGES
