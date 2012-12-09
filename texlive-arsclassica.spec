@@ -66,3 +66,26 @@ reproduce the look of the guide The art of writing with LaTeX
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.0.3-1
++ Revision: 779416
+- Update to latest release.
+
+* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.0-1
++ Revision: 772015
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.7-2
++ Revision: 749349
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.7-1
++ Revision: 717856
+- texlive-arsclassica
+- texlive-arsclassica
+- texlive-arsclassica
+- texlive-arsclassica
+- texlive-arsclassica
+
