@@ -1,5 +1,5 @@
 Name:		texlive-arsclassica
-Version:	20171101
+Version:	20180303
 Release:	1
 Summary:	A different view of the ClassicThesis package
 Group:		Publishing
