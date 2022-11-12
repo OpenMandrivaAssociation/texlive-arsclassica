@@ -5,8 +5,8 @@ Summary:	A different view of the ClassicThesis package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/arsclassica
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arsclassica.r45656.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arsclassica.doc.r45656.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arsclassica.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arsclassica.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
