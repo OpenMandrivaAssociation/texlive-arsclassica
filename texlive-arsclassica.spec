@@ -3,7 +3,7 @@ Version:	45656
 Release:	2
 Summary:	A different view of the ClassicThesis package
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/arsclassica
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/arsclassica
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arsclassica.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arsclassica.doc.r%{version}.tar.xz
